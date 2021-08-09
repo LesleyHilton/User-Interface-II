@@ -58,6 +58,17 @@ button {
     width: 90%
 }
 
+.middle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.middle div{
+    margin: 2% 0;
+    width: 30%;
+}
+
 
 /******Mobile Styles*******/
 
@@ -142,6 +153,12 @@ header {
     padding: 20px;
 }
 
+h1 {
+    font-size: 5em;
+    text-shadow: 2px 2px black;
+    color: rgb(252, 124, 252);
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -183,6 +200,10 @@ button {
 
 .footer {
     display: flex;
-    width: 90%
+    justify-content: center;
+    width: 100%;
+    padding: 4% 0;
+    background-color: violet;
+    
 }
 
